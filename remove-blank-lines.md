@@ -6,11 +6,8 @@
 
 > In windows, Press Ctrl+H (quick replace).
 - Click "Use Regular Expressions".
-- In Find specify ^$\n.
-- leave Replace as blank
+- Option 1: In Find specify ^$\n
+- Option 2: In Find specify [\r\n]+$
+- Define path (example): C:\dev\app\View
 - Click "Replace All" All Blank lines will be deleted.
-- enter image description here
-
-- NB: leave the replace box as blank
-
 ___
